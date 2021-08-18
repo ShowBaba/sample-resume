@@ -25,7 +25,7 @@ const formAction = async (e) => {
     console.log(jsonResponse);
     if (jsonResponse.success) {
       alert("Your message is well received! 👋!")
-      window.location.href = 'http://localhost:3000';
+      window.location.href = 'https://show-resume.herokuapp.com';
     }
     console.log(jsonResponse.message);
   } catch (error) {
