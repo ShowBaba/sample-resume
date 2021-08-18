@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,OAAO;CACtB;;AAED,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,SAAS;CAC7B;;AAED,AAAA,gBAAgB,CAAC;EACb,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAe;EACjC,UAAU,EAAE,KAAgB;EAC5B,MAAM,EAAE,UAAU;EAClB,OAAO,EAAE,sBAAsB;EAC/B,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,GAAG;CACb;;AAED,AAAA,QAAQ,CAAC;EACL,MAAM,EAAE,OAAO;CAClB;;AAED,AAAA,KAAK,CAAC;EACF,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "../../scss/pages/success.scss",
+        "../../scss/abstracts/_variables.scss",
+        "../../scss/abstracts/_functions.scss",
+        "../../scss/abstracts/_mixins.scss",
+        "../../scss/abstracts/_placeholders.scss"
+    ],
+    "names": [],
+    "file": "success.css"
+}

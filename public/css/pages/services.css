@@ -1,0 +1,242 @@
+main .link-btn {
+  text-transform: uppercase;
+}
+
+.hamburger-list, .input-container, .newsletter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services, .extra-services {
+  display: -ms-grid;
+  display: grid;
+}
+
+.services-header, .service, .extra-service {
+  text-align: center;
+}
+
+.services-section, .extra-services-section, .newsletter-section {
+  padding: 1.5em 0;
+}
+
+.hamburger-section {
+  margin: 0 auto;
+  width: 90%;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 24px 18px 64px rgba(0, 0, 0, 0.1);
+          box-shadow: 24px 18px 64px rgba(0, 0, 0, 0.1);
+  display: none;
+  max-width: 400px;
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
+  position: fixed;
+  left: 0;
+  line-height: 2.85em;
+  margin-top: 3.5em;
+  padding: 0.5em;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.hamburger-list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.hamburger-list a {
+  color: #222;
+  font-weight: 700;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+
+.hamburger-list a.hamburger-current {
+  color: #1a4a30;
+}
+
+.toggle-hamburger {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .hamburger-section {
+    display: none;
+  }
+}
+
+.input-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0.5em 0;
+}
+
+.form-label {
+  color: #3e3e3e;
+  margin-bottom: 0.25em;
+}
+
+.form-input {
+  border: 1px solid #3e3e3e;
+  border-radius: 10px;
+  padding: .25em 1em;
+  outline: none;
+}
+
+.link-btn {
+  background: #3ca86e;
+  border-radius: 0.5em;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0.4em 0.8em;
+  margin: 0.75em 0;
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  margin: 1.25em 0;
+  padding: 0.5em 1em;
+  outline: none;
+  width: 100%;
+}
+
+.link-btn,
+.btn {
+  cursor: pointer;
+}
+
+.btn-center {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1.25em auto;
+}
+
+.submit-btn {
+  background: #3ca86e;
+  color: #fff;
+}
+
+main .link-btn {
+  font-weight: 700;
+}
+
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/Rectangle (25).png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Rectangle (25).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1em;
+}
+
+.services {
+  margin: 0 auto;
+  width: 90%;
+  grid-gap: 20px;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.services-section {
+  background: #e5e5e5;
+}
+
+.services-header {
+  margin: .75em 0;
+}
+
+.service {
+  border: 1px solid #75afba;
+  border-radius: 5px;
+  margin: 1em;
+}
+
+.service-title {
+  color: #377aaa;
+  margin: .75em 0;
+}
+
+.service-text {
+  padding: .75em;
+}
+
+.extra-services-section {
+  background: #377aaa;
+}
+
+.extra-services-section header {
+  margin: .75em 0;
+}
+
+.extra-services-section h2,
+.extra-services-section figcaption {
+  color: #fff;
+}
+
+.extra-services {
+  margin: 0 auto;
+  width: 90%;
+  grid-gap: 15px;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.extra-service figcaption {
+  font-weight: 500;
+}
+
+.newsletter-header {
+  margin: 1em 0;
+}
+
+.newsletter-container {
+  margin: 0 auto;
+  width: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.newsletter-info {
+  margin-bottom: 1em;
+}
+
+.newsletter-form {
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 1em;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .services {
+    -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,27 @@
+body {
+  background: #e5e5e5;
+}
+
+a {
+  color: #5c5c5c;
+  text-decoration: underline;
+}
+
+.success-message {
+  border: 1px solid #c4c4c4;
+  background: white;
+  margin: 4em auto 0;
+  padding: calc(.02 * 100% + 1em);
+  max-width: 500px;
+  text-align: center;
+  width: 90%;
+}
+
+.message {
+  margin: 1.5em 0;
+}
+
+.home {
+  text-align: right;
+}
+/*# sourceMappingURL=success.css.map */
